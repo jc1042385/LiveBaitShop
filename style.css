@@ -6,15 +6,15 @@ nav ul {
     background-size: cover;
     background-position: center;
     height: 40vh;
-    background-image: url(https://youtu.be/wqH_2z21zEc?si=RaSjxdmbRzL4_G3K);
+    background-image: url(images/bass-banner-image.jpeg);
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#hero .hero-text {
-    background-color: rgba(211, 211, 211, 0.85);
+#hero .hero-text, .h2-out {
+    background-color: rgba(211, 211, 211, 0.65);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
@@ -30,6 +30,13 @@ nav ul {
     text-align: center;
 }
 
+#hours-location article img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 #services .sub-article{
     width: 90%;
     background: white;
@@ -38,6 +45,19 @@ nav ul {
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+
+#watch {
+    width: 96%;
+}
+
+.out, footer {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .emph {
