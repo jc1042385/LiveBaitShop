@@ -1,5 +1,6 @@
 What I Should Have Done
 turn the bait list into an actual list instead of a bunch of paragraphs
+could also use flexbox to make the list look nice
 add the facebook link
 should have used grid instead of flex-box to get the diffrent "cards" properly centered
 added a link to "baitshop" somewhere, may need to replace index with baitshop, should fix when uploading
