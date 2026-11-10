@@ -59,6 +59,10 @@ nav ul {
     color: #a52a2a;
 }
 
+iframe {
+    width: 100%;
+}
+
 @media screen and (min-width: 600px) {
     nav {
         display: inline-block;
@@ -72,7 +76,7 @@ nav ul {
 
     #hours-location article{
         display: inline-flex;
-        width: 46%;
+        width: 45%;
         flex-direction: column;
         align-content: start;
         justify-content: start;
