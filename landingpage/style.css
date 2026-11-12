@@ -1,0 +1,61 @@
+body {
+    background-color: darkslategray;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+#hero {
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-image: url(images/banner-image.jpeg);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-text {
+    background-color: rgba(240, 240, 240, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: darkslategray;
+}
+
+nav ul li{
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#card article{
+    background: white;
+    color: darkslategray;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    nav {
+        display: inline-block;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 10px 15px;
+        border-bottom: none;
+    }
+
+}
